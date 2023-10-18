@@ -102,13 +102,17 @@ nav{
     cursor: pointer;
     display: none;
   }
+  .c-black{
+    color: black !important;
+  }
   #check{
     display: none;
   }
   @media (max-width: 952px){
     label.logo{
       font-size: 30px;
-      padding-left: 50px;
+      /* padding-left: 50px; */
+      padding: 0px 25px;
     }
     nav ul li .navv-item{
       font-size: 16px;
@@ -145,7 +149,13 @@ nav{
       left: 0;
     }
   }
-  
+  @media (max-width: 252px){
+    .logo{
+      width: 100px;
+      /* padding-left: 50px; */
+      padding: 0px 10px;
+    }
+  }
 
 /* a:link {
     color:#022b59;
